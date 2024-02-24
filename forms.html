@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Miss Kwara's forms</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label> <br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" aria-describedby="password-hint"> <br>
+        <div id="password-hint">
+            Password must be at least 8 characters long.
+        </div>
+        <label>Choose your preferred payment option:</label> <br>
+        <input type="radio" id="Credit card" name="paymentMethod" value="Credit card">
+        <label for="creditCard">Credit card</label> <br>
+
+        <input type="radio" id="Paypal" name="paymentMethod" value="Paypal">
+        <label for="Paypal">Paypal</label> <br>
+
+        <input type="radio" id="Bitcoin" name="paymentMethod" value="Bitcoin">
+        <label for="Bitcoin">Bitcoin</label> <br>
+
+        <a href="interests.html">Find your interests</a>
+    </form>
+</body>
